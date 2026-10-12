@@ -1,0 +1,12 @@
+# Language detection rules
+public/**/*.html linguist-vendored
+src/**/*.tsx linguist-detectable 
+
+Cargo.lock linguist-generated
+*.woff binary
+yarn.lock linguist-generated
+*.min.css linguist-generated  
+
+package-lock.json linguist-generated
+*.yaml linguist-detectable=false
+* text=auto
